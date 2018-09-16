@@ -1,0 +1,43 @@
+/* BASICS
+*
+* ///////////// HERE ARE MY BASICS DB_COMMANDS //////////////
+*
+*/
+
+
+/* First
+* Connect to sql via CLI
+*/
+mysql.exe -u root -p
+
+/* Show basic help commands */
+help;
+
+/* Show help about contents */
+help contents;
+
+
+/* Create database */
+CREATE DATABASE <name>;
+
+
+/* Delete database */
+drop DATABASE <name>;
+
+
+/* show current database */
+select DATABASE();
+
+/* Show warnings */
+SHOW WARNINGS ;
+
+
+
+
+
+
+
+
+
+
+
