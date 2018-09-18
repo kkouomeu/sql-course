@@ -17,7 +17,6 @@ current_status VARCHAR(50) NOT NULL DEFAULT 'employed',
 PRIMARY KEY (id)
 );
 
-
 /* Insert into employee table*/
 INSERT INTO employees ( first_name, last_name, middle_name, age)
 VALUES ( 'Marc', 'BARRY' , 'La gachette', 22 );

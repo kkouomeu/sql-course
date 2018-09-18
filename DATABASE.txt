@@ -17,6 +17,11 @@ help;
 help contents;
 
 
+/* Run sql file vie CLI | (on windows) */ 
+source path/to/file  file.sql;
+
+
+
 /* Create database */
 CREATE DATABASE <name>;
 
