@@ -38,7 +38,7 @@ SHOW WARNINGS ;
 
 
 
-
+/* MODIFY TABLE Properties with ALTER TABLE */
 
 
 
