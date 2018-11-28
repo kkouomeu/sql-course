@@ -17,7 +17,7 @@ help;
 help contents;
 
 
-/* Run sql file vie CLI | (on windows) */ 
+/* Run sql file with CLI | (on windows) */ 
 source path/to/file  file.sql;
 
 
@@ -36,6 +36,11 @@ select DATABASE();
 /* Show warnings */
 SHOW WARNINGS ;
 
+
+/* How to load database file */
+open mysql in command line ( Windows and Mac)
+mysql> use db_name;
+mysql> source backup-file.sql;
 
 
 /* MODIFY TABLE Properties with ALTER TABLE */

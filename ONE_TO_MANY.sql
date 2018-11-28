@@ -79,7 +79,7 @@ Result
 */
 
 
--- EXPLICIT INNER JOIN   (Will take onlything that exist in customers and orders  )
+-- EXPLICIT INNER JOIN   (Will take only thing that exist in customers and orders  )
 SELECT first_name, last_name, email, order_date, amount FROM customers
 JOIN orders 
 	ON customers.id = orders.customer_id;
